@@ -38,3 +38,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+group :development, :test do
+  gem 'factory_girl_rails', '~> 4.4.0'
+  gem 'rspec-rails', '~> 2.14.0'
+  gem 'spring-commands-rspec'
+end
