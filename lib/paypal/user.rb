@@ -1,0 +1,2 @@
+class Paypal::User
+end
